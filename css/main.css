@@ -1,0 +1,126 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.mainContainer{
+    padding: 30px;
+}
+.experience, .education, .footer,.profile{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    
+}
+.fa-phone-square-alt,.fa-envelope,
+.fa-gitlab,.fa-map-marker-alt{
+    color: red;
+    margin-right: 10px;
+}
+
+
+@media(min-width:540px){
+    .header {
+        display:flex;
+        justify-content:center;
+        
+    }
+    .educationGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 50px
+    }
+    .experienceGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 50px
+
+    }
+
+}
+
+.profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin: 5px;
+}
+.light{
+    font-weight: 900;
+    color: #797979;
+    text-transform: uppercase;
+}
+.formate{
+
+    margin-top: 10px;
+    justify-content: left;
+    color: #797979;
+}
+
+
+
+ .profilePic {
+    
+     
+     border: 8px solid black;
+            border-radius: 50%;
+            background-color: aqua;
+            background-image: url(../images/shakir_pic.jpeg);
+            background-size: cover;
+            height: 200px;
+            width: 200px;
+        }
+
+.profileName{
+margin: 10px;
+padding: 20px;
+}
+.titel{
+    font-weight: 900;
+    font-size: 16px;
+    font-weight:bold;
+
+}
+.subtitel{
+    
+    font-size: 10px;
+    color: #797979;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li{
+      background-color: #797979;
+      display:block;
+   width:250px; 
+   height:30px; 
+   padding: 5px;
+   margin: 10px;
+      
+  }
+  
+
+
+h1, h2, h3 {
+    font-weight: 900;
+    
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom:0px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-left: 5px;
+  }
+
+
+        
